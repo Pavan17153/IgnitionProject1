@@ -1,0 +1,28 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "TextField"
+        },
+        "position": {
+          "height": 32,
+          "width": 150,
+          "x": 326,
+          "y": 98
+        },
+        "props": {
+          "text": "maincontainer"
+        },
+        "type": "ia.input.text-field"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

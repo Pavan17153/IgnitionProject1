@@ -1,0 +1,42 @@
+{
+  "custom": {},
+  "params": {
+    "level": 50
+  },
+  "propConfig": {
+    "params.level": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 344,
+      "width": 260
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "path": "view.params.level"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.tab"
+  }
+}

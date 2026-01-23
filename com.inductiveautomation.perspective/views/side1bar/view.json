@@ -1,0 +1,35 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 188
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "TextArea",
+          "tooltip": {
+            "location": "top-left"
+          }
+        },
+        "props": {
+          "text": "jkkk "
+        },
+        "type": "ia.input.text-area"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "tabSize": {
+        "height": 25,
+        "width": 35
+      }
+    },
+    "type": "ia.container.tab"
+  }
+}

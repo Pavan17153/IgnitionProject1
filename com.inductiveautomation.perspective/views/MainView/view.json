@@ -1,0 +1,137 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": [
+              {
+                "config": {
+                  "params": {},
+                  "view": "icon"
+                },
+                "scope": "C",
+                "type": "nav"
+              },
+              {
+                "config": {},
+                "scope": "C",
+                "type": "logout"
+              }
+            ]
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 93,
+          "width": 218,
+          "x": 294.9580381774902,
+          "y": 54
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {
+                  "keyIItem": "welcome to place"
+                },
+                "view": "icon"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "height": 105,
+          "width": 227,
+          "x": 285.9140057373047,
+          "y": 176
+        },
+        "props": {
+          "image": {
+            "height": 500,
+            "width": 500
+          },
+          "text": "Page1"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "newTab": true,
+                "page": "/tank/:level"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_1"
+        },
+        "position": {
+          "height": 116,
+          "rotate": {
+            "anchor": "50% -529%"
+          },
+          "width": 220,
+          "x": 285,
+          "y": 333
+        },
+        "props": {
+          "image": {
+            "height": 500,
+            "width": 500
+          },
+          "text": "Pagfe2"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button_2"
+        },
+        "position": {
+          "height": 80,
+          "rotate": {
+            "anchor": "11% -394%"
+          },
+          "width": 222,
+          "x": 289,
+          "y": 502
+        },
+        "props": {
+          "image": {
+            "height": 500,
+            "width": 500
+          },
+          "text": "Page 3"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "position": {
+      "x": 8,
+      "y": -138
+    },
+    "type": "ia.container.coord"
+  }
+}

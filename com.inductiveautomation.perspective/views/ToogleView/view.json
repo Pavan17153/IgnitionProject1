@@ -1,0 +1,52 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 682
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "TextArea"
+        },
+        "position": {
+          "basis": "50px"
+        },
+        "props": {
+          "text": "welcome to page"
+        },
+        "type": "ia.input.text-area"
+      },
+      {
+        "meta": {
+          "name": "ToggleSwitch"
+        },
+        "position": {
+          "basis": "36px"
+        },
+        "propConfig": {
+          "props.selected": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "page.props.appBarVisible"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "type": "ia.input.toggle-switch"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

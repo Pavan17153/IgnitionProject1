@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "xml-format-version": 1,
+    "lastModificationSignature": "c24511959f9c157d3446b4bb5ab9f076713a8c0600e33026df98533176456ae5",
+    "lastModification": {
+      "actor": "Ignition",
+      "timestamp": "2026-01-22T12:36:24Z"
+    },
+    "open-on-start": true
+  }
+}

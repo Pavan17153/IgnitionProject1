@@ -1,0 +1,60 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 98,
+          "width": 162
+        },
+        "props": {
+          "text": "welcome to ignition"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Carousel"
+        },
+        "position": {
+          "height": 232,
+          "width": 221,
+          "x": 127,
+          "y": 108
+        },
+        "props": {
+          "activePane": 1,
+          "behavior": {
+            "transitionSpeed": 100
+          },
+          "views": [
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {},
+              "viewPath": "ToogleView"
+            },
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {},
+              "viewPath": "Tank"
+            }
+          ]
+        },
+        "type": "ia.display.carousel"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

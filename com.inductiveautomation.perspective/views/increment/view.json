@@ -1,0 +1,172 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\n    counter \u003d self.getSibling(\"Counter\")\n    counter.props.text \u003d int(counter.props.text) + 1"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Icon",
+          "tooltip": {
+            "style": {
+              "textAlign": "center"
+            }
+          }
+        },
+        "position": {
+          "height": 150,
+          "rotate": {
+            "anchor": "50% -14%"
+          },
+          "width": 157,
+          "x": 422.46,
+          "y": 162
+        },
+        "props": {
+          "path": "material/arrow_forward_ios"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "meta": {
+          "name": "Counter",
+          "tooltip": {
+            "style": {
+              "textAlign": "center"
+            }
+          }
+        },
+        "position": {
+          "height": 177,
+          "width": 150,
+          "x": 285.541,
+          "y": 148
+        },
+        "props": {
+          "style": {
+            "borderStyle": "none",
+            "color": "#FA13F4",
+            "fontFamily": "Arial",
+            "fontSize": "30pt",
+            "fontWeight": "bold"
+          },
+          "text": 16
+        },
+        "type": "ia.input.text-field"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\t\n    counter \u003d self.getSibling(\"Counter\")\n    counter.props.text \u003d int(counter.props.text) - 1"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Icon_0",
+          "tooltip": {
+            "style": {
+              "textAlign": "center"
+            }
+          }
+        },
+        "position": {
+          "height": 146,
+          "width": 145.09,
+          "x": 102,
+          "y": 166
+        },
+        "props": {
+          "path": "material/arrow_back_ios"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\t\n    counter \u003d self.getSibling(\"Counter\")\n    counter.props.text \u003d int(counter.props.text) + 5"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Icon_1",
+          "tooltip": {
+            "style": {
+              "textAlign": "center"
+            }
+          }
+        },
+        "position": {
+          "height": 98,
+          "rotate": {
+            "anchor": "188% 0%"
+          },
+          "width": 79,
+          "x": 595.458,
+          "y": 188
+        },
+        "props": {
+          "path": "material/fast_forward"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\t\n    counter \u003d self.getSibling(\"Counter\")\n    counter.props.text \u003d int(counter.props.text) - 5"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Icon_2"
+        },
+        "position": {
+          "height": 136,
+          "rotate": {
+            "anchor": "25% 75%"
+          },
+          "width": 77,
+          "x": 16,
+          "y": 171
+        },
+        "props": {
+          "path": "material/fast_rewind"
+        },
+        "type": "ia.display.icon"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "position": {
+      "x": 60,
+      "y": 13
+    },
+    "type": "ia.container.coord"
+  }
+}

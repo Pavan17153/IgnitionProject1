@@ -1,0 +1,38 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "-75% 194%"
+          },
+          "width": 178,
+          "x": 147,
+          "y": 143
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": ""
+              },
+              "type": "property"
+            }
+          }
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

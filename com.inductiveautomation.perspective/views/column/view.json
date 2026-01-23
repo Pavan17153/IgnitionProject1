@@ -1,0 +1,90 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "breakpoints": [
+            {
+              "colIndex": 0,
+              "name": "sm",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 3
+            },
+            {
+              "colIndex": 0,
+              "name": "md",
+              "order": 0,
+              "rowIndex": 0,
+              "span": 3
+            },
+            {
+              "colIndex": 0,
+              "name": "lg",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 3
+            }
+          ],
+          "height": 220
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]weight1"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_0"
+        },
+        "position": {
+          "breakpoints": [
+            {
+              "colIndex": 6,
+              "name": "sm",
+              "order": 2,
+              "rowIndex": 0,
+              "span": 1
+            },
+            {
+              "colIndex": 4,
+              "name": "md",
+              "order": 0.5,
+              "rowIndex": 0,
+              "span": 2
+            },
+            {
+              "colIndex": 6,
+              "name": "lg",
+              "order": 2,
+              "rowIndex": 0,
+              "span": 1
+            }
+          ],
+          "height": 170
+        },
+        "type": "ia.display.cylindrical-tank"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.column"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "ToggleSwitch"
+        },
+        "position": {
+          "height": 36,
+          "width": 126,
+          "x": 128,
+          "y": 51
+        },
+        "props": {
+          "label": {
+            "position": "left",
+            "text": "switch"
+          }
+        },
+        "type": "ia.input.toggle-switch"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField"
+        },
+        "position": {
+          "height": 32,
+          "width": 150,
+          "x": 331,
+          "y": 53
+        },
+        "props": {
+          "format": "0,0",
+          "inputBounds": {
+            "maximum": 100,
+            "minimum": 0
+          },
+          "mode": "protected",
+          "value": 10
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "MultiStateButton"
+        },
+        "position": {
+          "height": 120,
+          "width": 80,
+          "x": 28,
+          "y": 110
+        },
+        "propConfig": {
+          "props.controlValue": {
+            "binding": {
+              "config": {
+                "path": ""
+              },
+              "transforms": [
+                {
+                  "formatType": "numeric",
+                  "formatValue": "integer",
+                  "type": "format"
+                },
+                {
+                  "fallback": {},
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 2,
+                      "output": {}
+                    },
+                    {
+                      "input": "{\"min\":2,\"max\":4}",
+                      "output": {}
+                    }
+                  ],
+                  "outputType": "inline-style",
+                  "type": "map"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "props.states[0].selectedStyle": {
+            "binding": {
+              "config": {
+                "path": ""
+              },
+              "transforms": [
+                {
+                  "fallback": "#000000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 2,
+                      "output": "#FFFF00"
+                    },
+                    {
+                      "input": 3,
+                      "output": "#FFFFFF"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "indicatorValue": 0,
+          "states": [
+            {
+              "text": "Machine",
+              "unselectedStyle": {
+                "backgroundColor": "#FDFFFE",
+                "classes": ""
+              },
+              "value": 2
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#F84553",
+                "classes": ""
+              },
+              "text": "Off",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 0
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#7CEA9C",
+                "classes": ""
+              },
+              "text": "Auto",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 1
+            }
+          ]
+        },
+        "type": "ia.input.multi-state-button"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "height": 215,
+          "width": 315,
+          "x": 196,
+          "y": 128
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

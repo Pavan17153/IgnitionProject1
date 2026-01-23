@@ -1,0 +1,121 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "TagName "
+        },
+        "position": {
+          "height": 32,
+          "width": 150,
+          "x": 54,
+          "y": 42
+        },
+        "props": {
+          "placeholder": "TagName",
+          "text": "gfg"
+        },
+        "type": "ia.input.text-field"
+      },
+      {
+        "meta": {
+          "name": "DataType "
+        },
+        "position": {
+          "height": 32,
+          "width": 149,
+          "x": 218,
+          "y": 42
+        },
+        "props": {
+          "options": [
+            {
+              "label": "Int4",
+              "value": "Int4"
+            },
+            {
+              "label": "Float4",
+              "value": "Float4"
+            },
+            {
+              "label": "Boolean",
+              "value": "Boolean"
+            },
+            {
+              "label": "String",
+              "value": "String"
+            }
+          ],
+          "placeholder": {
+            "text": "DataType"
+          },
+          "value": "Int4"
+        },
+        "type": "ia.input.dropdown"
+      },
+      {
+        "meta": {
+          "name": "TagValue "
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 150,
+          "x": 381,
+          "y": 42
+        },
+        "props": {
+          "placeholder": "TagValue",
+          "style": {
+            "textAlign": "left"
+          },
+          "text": " 900"
+        },
+        "type": "ia.input.text-field"
+      },
+      {
+        "meta": {
+          "name": "TrackGit "
+        },
+        "position": {
+          "height": 36,
+          "rotate": {
+            "anchor": "-20% 0%"
+          },
+          "width": 92,
+          "x": 541,
+          "y": 38
+        },
+        "props": {
+          "selected": true,
+          "text": "TrackGit "
+        },
+        "type": "ia.input.checkbox"
+      },
+      {
+        "meta": {
+          "name": "SaveBtn"
+        },
+        "position": {
+          "height": 45,
+          "width": 132,
+          "x": 235,
+          "y": 180
+        },
+        "props": {
+          "text": "Create Tag"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

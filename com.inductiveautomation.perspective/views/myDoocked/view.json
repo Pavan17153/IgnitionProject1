@@ -1,0 +1,50 @@
+{
+  "custom": {},
+  "params": {
+    "keyitems1": "pavan\n"
+  },
+  "propConfig": {
+    "params.keyitems1": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "TextArea"
+        },
+        "position": {
+          "basis": "63px"
+        },
+        "props": {
+          "text": "hiii"
+        },
+        "type": "ia.input.text-area"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "basis": "32px"
+        },
+        "props": {
+          "text": "Label"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "alignItems": "center",
+      "direction": "column",
+      "wrap": "wrap"
+    },
+    "type": "ia.container.flex"
+  }
+}

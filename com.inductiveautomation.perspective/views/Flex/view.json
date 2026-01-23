@@ -1,0 +1,14 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "alignItems": "flex-start"
+    },
+    "type": "ia.container.flex"
+  }
+}

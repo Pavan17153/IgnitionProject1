@@ -1,0 +1,187 @@
+{
+  "pages": {
+    "": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "side1bar"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "MainContainer"
+    },
+    "/": {
+      "title": "",
+      "viewPath": ""
+    },
+    "/BarCode": {
+      "title": "",
+      "viewPath": ""
+    },
+    "/Main": {
+      "docks": {
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "Main"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Main"
+    },
+    "/MainView": {
+      "title": "",
+      "viewPath": "MainView"
+    },
+    "/PavanView": {
+      "title": "",
+      "viewPath": "PavanView"
+    },
+    "/c": {
+      "title": "",
+      "viewPath": "Coordinate"
+    },
+    "/column": {
+      "title": "",
+      "viewPath": "column"
+    },
+    "/dockaction": {
+      "title": "",
+      "viewPath": "DockAction"
+    },
+    "/dockaction1": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "WestAction"
+          }
+        ]
+      },
+      "viewPath": "DockAction"
+    },
+    "/icon": {
+      "title": "",
+      "viewPath": ""
+    },
+    "/increment": {
+      "title": "",
+      "viewPath": "increment"
+    },
+    "/input": {
+      "viewPath": "input"
+    },
+    "/loginlogout": {
+      "title": "",
+      "viewPath": "LoginLogout"
+    },
+    "/myprimaryView": {
+      "docks": {
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "DoockedView"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": ""
+    },
+    "/side1bar": {
+      "docks": {
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "side1bar"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "side1bar"
+    },
+    "/tagmanagerr": {
+      "title": "",
+      "viewPath": "TagManager"
+    },
+    "/tank/:level": {
+      "title": "",
+      "viewPath": "Tank"
+    },
+    "/toogleview": {
+      "title": "",
+      "viewPath": "ToogleView"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "left-right",
+    "left": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "cover",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "west",
+        "modal": false,
+        "resizable": false,
+        "show": "onDemand",
+        "size": 150,
+        "viewParams": {},
+        "viewPath": "WestAction"
+      }
+    ]
+  }
+}

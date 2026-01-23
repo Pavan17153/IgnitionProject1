@@ -1,0 +1,41 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 0.1775,
+          "width": 0.1812,
+          "x": 0.1625,
+          "y": 0.0975
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]scale hight sp"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "mode": "percent"
+    },
+    "type": "ia.container.coord"
+  }
+}

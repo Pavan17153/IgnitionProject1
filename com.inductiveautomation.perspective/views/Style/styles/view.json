@@ -1,0 +1,56 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 68,
+          "width": 284,
+          "x": 126,
+          "y": 20
+        },
+        "props": {
+          "style": {
+            "color": "#47FF00",
+            "fontFamily": "Helvetica",
+            "fontSize": "38pt",
+            "fontWeight": "bold",
+            "textAlign": "center"
+          },
+          "text": "Label",
+          "textStyle": {
+            "classes": "style1 styles"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 22,
+          "width": 208,
+          "x": 201,
+          "y": 185
+        },
+        "props": {
+          "text": "Label",
+          "textStyle": {
+            "classes": "alaram"
+          }
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

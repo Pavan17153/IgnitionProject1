@@ -1,0 +1,16 @@
+{
+  "scope": "CG",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModificationSignature": "c8b3558059b154737251415d6a16063ace4725ed4313c42210524b794de89835",
+    "lastModification": {
+      "actor": "Ignition",
+      "timestamp": "2026-01-09T06:05:14Z"
+    }
+  }
+}

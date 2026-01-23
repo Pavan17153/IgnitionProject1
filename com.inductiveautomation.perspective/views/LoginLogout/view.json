@@ -1,0 +1,88 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {},
+              "scope": "C",
+              "type": "login"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 61,
+          "width": 181,
+          "x": 126,
+          "y": 71
+        },
+        "props": {
+          "text": "Login"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {},
+              "scope": "C",
+              "type": "logout"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "height": 67,
+          "width": 186,
+          "x": 267,
+          "y": 181
+        },
+        "props": {
+          "text": "Logout"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "icon"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_1"
+        },
+        "position": {
+          "height": 67,
+          "width": 186,
+          "x": 441,
+          "y": 304
+        },
+        "props": {
+          "text": "Popup"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
