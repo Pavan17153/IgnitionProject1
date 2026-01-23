@@ -8,5 +8,5 @@ Copy-Item $source\* $dest -Recurse -Force
 # Step 3: Go to Git folder and push to GitHub
 cd $dest
 git add .
-git commit -m "Auto push from Ignition"
+git commit -m "Auto push from Ignition by pavan"
 git push
