@@ -1,12 +1,15 @@
-﻿# Step 1: Define Designer folder (source) and Git folder (destination)
+﻿# ===============================
+# Sync Ignition project + Push Git
+# ===============================
+
 $source = "C:\Program Files\Inductive Automation\Ignition\data\projects\MyProject"
-$dest = "C:\Users\Admin\Documents\IgnitionProject"
+$dest   = "C:\Users\Admin\Documents\IgnitionProject"
 
-# Step 2: Copy updated files to Git folder
-Copy-Item $source\* $dest -Recurse -Force
+# Copy files from Ignition project folder
+Copy-Item "$source\*" "$dest" -Recurse -Force -ErrorAction SilentlyContinue
 
-# Step 3: Go to Git folder and push to GitHub
+# Git push
 cd $dest
 git add .
-git commit -m "Auto push from Ignition by pavan"
+git commit -m "Auto push from Ignition"
 git push
