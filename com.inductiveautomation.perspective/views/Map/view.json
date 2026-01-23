@@ -1,0 +1,49 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Dropdown"
+        },
+        "position": {
+          "height": 36,
+          "rotate": {
+            "anchor": "75% 0%"
+          },
+          "width": 256,
+          "x": 167,
+          "y": 37
+        },
+        "type": "ia.input.dropdown"
+      },
+      {
+        "meta": {
+          "name": "GoogleMap"
+        },
+        "position": {
+          "height": 400,
+          "width": 400,
+          "x": 108,
+          "y": 112
+        },
+        "props": {
+          "init": {
+            "center": {
+              "lat": 38.660867,
+              "lng": -121.159728
+            },
+            "zoom": 13
+          }
+        },
+        "type": "ia.display.google-map"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

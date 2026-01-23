@@ -93,6 +93,10 @@
       },
       "viewPath": "DockAction"
     },
+    "/githubpush": {
+      "title": "",
+      "viewPath": "githubpush"
+    },
     "/icon": {
       "title": "",
       "viewPath": ""
@@ -107,6 +111,9 @@
     "/loginlogout": {
       "title": "",
       "viewPath": "LoginLogout"
+    },
+    "/map": {
+      "viewPath": "Map"
     },
     "/myprimaryView": {
       "docks": {
