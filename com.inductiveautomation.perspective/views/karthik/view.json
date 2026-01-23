@@ -1,0 +1,106 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "PieChart"
+        },
+        "position": {
+          "height": 375,
+          "width": 600,
+          "x": 133,
+          "y": 169
+        },
+        "props": {
+          "colors": [
+            "#3366CC",
+            "#EC4B3D",
+            "#4FC86C",
+            "#00A9C6",
+            "#E69300"
+          ],
+          "data": [
+            {
+              "count": 36,
+              "flavor": "Pumpkin"
+            },
+            {
+              "count": 17,
+              "flavor": "Pecan"
+            },
+            {
+              "count": 14,
+              "flavor": "Apple"
+            },
+            {
+              "count": 10,
+              "flavor": "Sweet Potato"
+            },
+            {
+              "count": 9,
+              "flavor": "Chocolate"
+            }
+          ],
+          "title": "Favorite Pie Flavors"
+        },
+        "type": "ia.chart.pie"
+      },
+      {
+        "meta": {
+          "name": "Gauge"
+        },
+        "position": {
+          "height": 175,
+          "width": 300,
+          "x": -7,
+          "y": 12
+        },
+        "props": {
+          "backgroundColor": "",
+          "innerAxis": {
+            "data": "secondaryValue",
+            "maxValue": 80,
+            "percentRadius": 85,
+            "show": false,
+            "width": 1
+          },
+          "outerAxis": {
+            "data": "value",
+            "maxValue": 120,
+            "percentRadius": 100,
+            "ranges": [
+              {
+                "color": "#77B6D8",
+                "end": 80,
+                "start": 0,
+                "width": 8
+              },
+              {
+                "color": "#6E94D7",
+                "end": 105,
+                "start": 80,
+                "width": 12
+              },
+              {
+                "color": "#7A6BD5",
+                "end": 120,
+                "start": 105,
+                "width": 16
+              }
+            ],
+            "show": true,
+            "width": 1
+          }
+        },
+        "type": "ia.chart.gauge"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

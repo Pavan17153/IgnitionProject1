@@ -108,6 +108,9 @@
     "/input": {
       "viewPath": "input"
     },
+    "/karthik": {
+      "viewPath": "karthik"
+    },
     "/loginlogout": {
       "title": "",
       "viewPath": "LoginLogout"
