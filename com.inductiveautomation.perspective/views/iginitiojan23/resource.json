@@ -4,13 +4,14 @@
   "restricted": false,
   "overridable": true,
   "files": [
-    "config.json"
+    "view.json",
+    "thumbnail.png"
   ],
   "attributes": {
-    "lastModificationSignature": "50f2126bd7a1bbbdf97bb815c6cea0101beb1cb594139b98334d6c8cb69d08c6",
+    "lastModificationSignature": "c9a722916f30a173cce344506efde7ad287462d7f6e545697032d73bc821d2b2",
     "lastModification": {
       "actor": "Ignition",
-      "timestamp": "2026-01-23T11:24:03Z"
+      "timestamp": "2026-01-23T11:24:11Z"
     }
   }
 }
