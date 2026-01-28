@@ -9,11 +9,10 @@
   ],
   "attributes": {
     "xml-format-version": 1,
-    "lastModificationSignature": "841a038cf68ba384bceb14b7539a97dcf598bd45460f68f3a3f10d559049fd00",
+    "lastModificationSignature": "e5fda594f675cb4a39ef3e036732dc8db7a155007e85265944826a9ce48688f4",
     "lastModification": {
       "actor": "Ignition",
       "timestamp": "2026-01-28T05:02:18Z"
-    },
-    "open-on-start": true
+    }
   }
 }
