@@ -1,0 +1,96 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Motor"
+        },
+        "position": {
+          "height": 104,
+          "width": 116,
+          "x": 28,
+          "y": 38
+        },
+        "props": {
+          "appearance": "simple",
+          "state": "running"
+        },
+        "type": "ia.symbol.motor"
+      },
+      {
+        "meta": {
+          "name": "Pump"
+        },
+        "position": {
+          "height": 209,
+          "width": 171,
+          "x": 314,
+          "y": 71
+        },
+        "props": {
+          "state": "running",
+          "variant": "vacuum"
+        },
+        "type": "ia.symbol.pump"
+      },
+      {
+        "meta": {
+          "name": "Sensor"
+        },
+        "position": {
+          "height": 105,
+          "width": 106,
+          "x": 28,
+          "y": 183
+        },
+        "props": {
+          "appearance": "mimic",
+          "state": "running"
+        },
+        "type": "ia.symbol.sensor"
+      },
+      {
+        "meta": {
+          "name": "Valve"
+        },
+        "position": {
+          "height": 99,
+          "rotate": {
+            "anchor": "25% 240%"
+          },
+          "width": 107,
+          "x": 314,
+          "y": 361
+        },
+        "props": {
+          "appearance": "mimic",
+          "state": "closed"
+        },
+        "type": "ia.symbol.valve"
+      },
+      {
+        "meta": {
+          "name": "Vessel"
+        },
+        "position": {
+          "height": 183,
+          "width": 201,
+          "x": 22,
+          "y": 302
+        },
+        "props": {
+          "appearance": "mimic",
+          "state": "running"
+        },
+        "type": "ia.symbol.vessel"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

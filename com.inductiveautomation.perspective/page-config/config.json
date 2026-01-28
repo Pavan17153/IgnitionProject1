@@ -30,6 +30,9 @@
       "title": "",
       "viewPath": ""
     },
+    "/Form1": {
+      "viewPath": "Form1"
+    },
     "/Main": {
       "docks": {
         "top": [
@@ -64,6 +67,9 @@
       "title": "",
       "viewPath": "Coordinate"
     },
+    "/chart": {
+      "viewPath": "chart"
+    },
     "/column": {
       "title": "",
       "viewPath": "column"
@@ -93,6 +99,9 @@
       },
       "viewPath": "DockAction"
     },
+    "/form": {
+      "viewPath": "form"
+    },
     "/githubpush": {
       "title": "",
       "viewPath": "githubpush"
@@ -102,6 +111,7 @@
       "viewPath": ""
     },
     "/iginitiojan23": {
+      "title": "",
       "viewPath": "iginitiojan23"
     },
     "/increment": {

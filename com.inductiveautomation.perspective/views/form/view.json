@@ -1,72 +1,30 @@
 {
   "custom": {},
   "params": {},
-  "props": {},
+  "props": {
+    "defaultSize": {
+      "height": 926,
+      "width": 858
+    }
+  },
   "root": {
     "children": [
-      {
-        "meta": {
-          "name": "Label"
-        },
-        "position": {
-          "height": 98,
-          "width": 162
-        },
-        "props": {
-          "text": "welcome to ignition"
-        },
-        "type": "ia.display.label"
-      },
-      {
-        "meta": {
-          "name": "Carousel"
-        },
-        "position": {
-          "height": 232,
-          "width": 221,
-          "x": 13,
-          "y": 259
-        },
-        "props": {
-          "activePane": 1,
-          "behavior": {
-            "transitionSpeed": 100
-          },
-          "views": [
-            {
-              "alignItems": "flex-start",
-              "direction": "row",
-              "justify": "flex-start",
-              "viewParams": {},
-              "viewPath": "ToogleView"
-            },
-            {
-              "alignItems": "flex-start",
-              "direction": "row",
-              "justify": "flex-start",
-              "viewParams": {},
-              "viewPath": "Tank"
-            }
-          ]
-        },
-        "type": "ia.display.carousel"
-      },
       {
         "meta": {
           "name": "Form"
         },
         "position": {
-          "height": 233,
-          "width": 400,
-          "x": 260,
-          "y": 26
+          "basis": "284px"
         },
         "props": {
+          "actions": {
+            "justify": "center"
+          },
           "columns": {
             "items": [
               {
                 "rows": {
-                  "align": "start",
+                  "align": "center",
                   "items": [
                     {
                       "align": "start",
@@ -1248,7 +1206,6 @@
                   "align": "start",
                   "items": [],
                   "justify": "start",
-                  "key": "value",
                   "style": {
                     "classes": ""
                   }
@@ -1273,9 +1230,10 @@
                 "visible": true
               }
             ],
-            "justify": "space-between"
-          },
-          "name": "form"
+            "key": {},
+            "key_1": 1,
+            "key_2": 2
+          }
         },
         "type": "ia.input.form"
       }
@@ -1283,10 +1241,9 @@
     "meta": {
       "name": "root"
     },
-    "position": {
-      "x": -139,
-      "y": 164
+    "props": {
+      "direction": "column"
     },
-    "type": "ia.container.coord"
+    "type": "ia.container.flex"
   }
 }
